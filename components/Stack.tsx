@@ -6,7 +6,7 @@ const Stack = () => {
     return (
         <section id={"stack"} className={'mb-36 px-10 md:px-0'}>
             <h2 className={'text-center font-electro text-[40px] md:text-5xl lg:text-6xl text-white relative mb-20'}>
-                My Tech <span className={'text-purple-300'}>Stack</span>
+                My Tech <span className={'text-purple'}>Stack</span>
             </h2>
             <div className={'flex items-center justify-center flex-wrap gap-6 md:gap-10'}>
                 {MyStack.map((item, index) => (

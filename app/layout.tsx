@@ -24,15 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={'!scroll-smooth dark'} data-theme={'dark'}>
+    <html lang="en" className={'dark'}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased !scroll-smooth `}
       >
 
       <ThemeProvider
           attribute="class"
           defaultTheme="dark"
-          disableTransitionOnChange
+          enableSystem={false}
       >
         {children}
       </ThemeProvider>

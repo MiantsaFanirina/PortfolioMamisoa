@@ -7,7 +7,7 @@ const Education = () => {
     return (
         <section id={'education'} className="py-20 w-full px-10 md:px-0 ">
             <h1  className={'text-center font-electro text-[40px] md:text-5xl lg:text-6xl text-white relative mb-20'}>
-                My <span className="text-purple-300">Education</span>
+                My <span className="text-purple">Education</span>
             </h1>
 
             <div className="w-full mt-12 grid md:grid-cols-4 lg:grid-cols-6 grid-cols-1 gap-10">

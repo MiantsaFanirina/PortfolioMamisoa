@@ -107,27 +107,27 @@ export const WorkData = [
 
                 <div className={'flex flex-col gap-2 '}>
                     <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300  shrink-0'}/> Developed appropriate stock management strategies
+                        <FaRegCircle className={'text-purple  shrink-0'}/> Developed appropriate stock management strategies
                         for animal feed and cheese.
                     </div>
 
                     <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300  shrink-0'}/> <span>Designed a business application using <span
+                        <FaRegCircle className={'text-purple  shrink-0'}/> <span>Designed a business application using <span
                         className={'font-bold'}>.NET Core C# WPF</span> to track product traceability.</span>
                     </div>
 
                     <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300  shrink-0'}/> Trained employees to use the newly developed
+                        <FaRegCircle className={'text-purple  shrink-0'}/> Trained employees to use the newly developed
                         application.
                     </div>
 
                     <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300  shrink-0'}/> Improved the logistics scheduling process.
+                        <FaRegCircle className={'text-purple  shrink-0'}/> Improved the logistics scheduling process.
                     </div>
 
 
                     <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> The application manages various types of loans and debts related to transactions.
+                        <FaRegCircle className={'text-purple shrink-0'}/> The application manages various types of loans and debts related to transactions.
                     </div>
                 </div>
 
@@ -159,7 +159,7 @@ export const WorkData = [
 
                 <div className={'flex flex-col gap-2 '}>
                     <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> <span>Led the development of a business application for <span className={'font-bold'}>Espace Santika</span> in Madagascar using <span className={'font-bold'}>Symfony, API Platform, and React</span>.
+                        <FaRegCircle className={'text-purple shrink-0'}/> <span>Led the development of a business application for <span className={'font-bold'}>Espace Santika</span> in Madagascar using <span className={'font-bold'}>Symfony, API Platform, and React</span>.
                     </span>
                     </div>
                 </div>
@@ -190,20 +190,20 @@ export const WorkData = [
                 <div className={'flex flex-col gap-2 mb-10'}>
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> Designed project plans, including objectives,
+                        <FaRegCircle className={'text-purple shrink-0'}/> Designed project plans, including objectives,
                         budgets, schedules, and resource allocation.
                     </div>
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> Defined tasks and coordinated their execution with
+                        <FaRegCircle className={'text-purple shrink-0'}/> Defined tasks and coordinated their execution with
                         the team.
                     </div>
 
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> Managed scheduling, budgeting, and risk assessment
+                        <FaRegCircle className={'text-purple shrink-0'}/> Managed scheduling, budgeting, and risk assessment
                         during project implementation.
                     </div>
 
@@ -219,27 +219,27 @@ export const WorkData = [
                 <div className={'flex flex-col gap-2 mb-10'}>
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> Designed and wired the motor control electrical
+                        <FaRegCircle className={'text-purple shrink-0'}/> Designed and wired the motor control electrical
                         panel with the team.
                     </div>
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> <span> Built <span className={'font-bold'}>Archimedean screw decanter machines</span> for
+                        <FaRegCircle className={'text-purple shrink-0'}/> <span> Built <span className={'font-bold'}>Archimedean screw decanter machines</span> for
                         water treatment.</span>
                     </div>
 
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> Managed communication between various project
+                        <FaRegCircle className={'text-purple shrink-0'}/> Managed communication between various project
                         stakeholders.
                     </div>
 
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> Anticipated risks and budget constraints throughout
+                        <FaRegCircle className={'text-purple shrink-0'}/> Anticipated risks and budget constraints throughout
                         project execution.
                     </div>
 
@@ -254,20 +254,20 @@ export const WorkData = [
                 <div className={'flex flex-col gap-2 mb-10'}>
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> <span>Prepared for the transportation and installation of <span className={'font-bold'}>bottling machines,</span> including <span className={'font-bold'}>control panels, TIA Portal automation, and power systems.</span>
+                        <FaRegCircle className={'text-purple shrink-0'}/> <span>Prepared for the transportation and installation of <span className={'font-bold'}>bottling machines,</span> including <span className={'font-bold'}>control panels, TIA Portal automation, and power systems.</span>
                     </span>
                     </div>
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> <span>Developed a <span className={'font-bold'}>large ultraviolet filtration system</span> to eliminate particles smaller than one micron.
+                        <FaRegCircle className={'text-purple shrink-0'}/> <span>Developed a <span className={'font-bold'}>large ultraviolet filtration system</span> to eliminate particles smaller than one micron.
                         </span>
                     </div>
 
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/> <span>Researched the most effective method for water treatment using sodium <span className={'font-bold'}>hypochlorite.</span>
+                        <FaRegCircle className={'text-purple shrink-0'}/> <span>Researched the most effective method for water treatment using sodium <span className={'font-bold'}>hypochlorite.</span>
                         </span>
                     </div>
 
@@ -299,7 +299,7 @@ export const WorkData = [
                 <div className={'flex flex-col gap-2 mb-10'}>
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>
                             Migrated the application to a <span
                             className={'font-bold'}>microservices architecture</span> using <span
@@ -310,7 +310,7 @@ export const WorkData = [
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>Enhanced user security by implementing <span
                             className={'font-bold'}>JWT authentication</span> using <span className={'font-bold'}>ASP.NET Web API .NET Core</span> and <span
                             className="font-bold">Dapper framework</span> for the data access layer.</span>
@@ -319,14 +319,14 @@ export const WorkData = [
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>Migrated the front-end to <span className={'font-bold'}>Angular 8</span>.</span>
                     </div>
 
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>Implemented <span className={'font-bold'}>automatic image detection</span> (front or side view)
                             using <span
                                 className={'font-bold'}>deep learning and image processing</span> techniques.</span>
@@ -334,7 +334,7 @@ export const WorkData = [
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>Developed a <span className={'font-bold'}>mobile application (Xamarin)</span> that detects vehicle breakdowns upon return.
                             The deep learning model is built in <span className={'font-bold'}>Python</span> using <span className={'font-bold'}>Keras and TensorFlow</span> frameworks.</span>
                     </div>
@@ -364,7 +364,7 @@ export const WorkData = [
                 <div className={'flex flex-col gap-2 mb-10'}>
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>
                             Developed the business application for <span className={'font-bold'}>cheese stock management</span>, logistics, and IT flows (production chain without financial flows as the company
                             doesn&apos;t export products). The application also manages products based on customer orders.
@@ -373,7 +373,7 @@ export const WorkData = [
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>Controlled the <span className={'font-bold'}>milk production interface</span> using sensors and <span className={'font-bold'}>ARM</span> microcontrollers (STM32).</span>
                     </div>
 
@@ -403,7 +403,7 @@ export const WorkData = [
                 <div className={'flex flex-col gap-2 mb-10'}>
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>
                             Traveled for 2 months to <span className={'font-bold'}>Douala (Cameroon)</span> and then 10 months
                             to <span className={'font-bold'}>Quito (Ecuador)</span> to develop
@@ -413,7 +413,7 @@ export const WorkData = [
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>
                             Implemented a single <span className={'font-bold'}>User Interface</span> but with two different databases for the two companies.
                             <span className={'font-bold'}>ASP.NET WebForm</span> for the Frontend and Data Access Layer using
@@ -423,14 +423,14 @@ export const WorkData = [
 
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>
                             Fixed application bugs and resolved internal issues with agents and external issues with payers.
                         </span>
                     </div>
                     <div
                         className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300 shrink-0'}/>
+                        <FaRegCircle className={'text-purple shrink-0'}/>
                         <span>
                             Developed <span className={'font-bold'}>Bots</span> to ensure secure communication from the agency application
                             to the payer&apos;s application (using <span className={'font-bold'}>SOAP Webservices</span>, Console Application,

@@ -18,7 +18,7 @@ const Footer = () => {
 
             <div className="flex flex-col items-center">
                 <h2 className={'text-center font-electro text-[40px] md:text-5xl lg:text-6xl text-white relative'}>
-                    Ready to take <span className="text-purple-300">your</span> digital
+                    Ready to take <span className="text-purple">your</span> digital
                     presence to the next level?
                 </h2>
 
