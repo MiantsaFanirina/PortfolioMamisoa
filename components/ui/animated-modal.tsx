@@ -17,6 +17,8 @@ interface ModalContextType {
 
 const ModalContext = createContext<ModalContextType | undefined>(undefined);
 
+
+
 export const ModalProvider = ({ children }: { children: ReactNode }) => {
     const [open, setOpen] = useState(false);
 
@@ -33,6 +35,21 @@ export const useModal = () => {
         throw new Error("useModal must be used within a ModalProvider");
     }
     return context;
+};
+
+const useOutsideClick = (
+    ref: React.RefObject<HTMLDivElement | null>,
+    callback: () => void
+) => {
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (ref.current && !ref.current.contains(event.target as Node)) {
+                callback();
+            }
+        };
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, [ref, callback]);
 };
 
 export function Modal({ children }: { children: ReactNode }) {
@@ -77,7 +94,7 @@ export const ModalBody = ({
         }
     }, [open]);
 
-    const modalRef = useRef(null);
+    const modalRef = useRef<HTMLDivElement>(null);
     const { setOpen } = useModal();
     useOutsideClick(modalRef, () => setOpen(false));
 
@@ -215,29 +232,4 @@ const CloseIcon = () => {
             </svg>
         </button>
     );
-};
-
-// Hook to detect clicks outside of a component.
-// Add it in a separate file, I've added here for simplicity
-export const useOutsideClick = (
-    ref: React.RefObject<HTMLDivElement>,
-    callback: Function
-) => {
-    useEffect(() => {
-        const listener = (event: any) => {
-            // DO NOTHING if the element being clicked is the target element or their children
-            if (!ref.current || ref.current.contains(event.target)) {
-                return;
-            }
-            callback(event);
-        };
-
-        document.addEventListener("mousedown", listener);
-        document.addEventListener("touchstart", listener);
-
-        return () => {
-            document.removeEventListener("mousedown", listener);
-            document.removeEventListener("touchstart", listener);
-        };
-    }, [ref, callback]);
 };

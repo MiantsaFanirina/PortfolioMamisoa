@@ -1,9 +1,7 @@
 "use client";
-import React, {useState, useRef, useEffect, JSX} from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import React, {useState, JSX} from "react";
+import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
-import {BackgroundGradient} from "@/components/ui/background-gradient";
 import {GlowingStarsBackgroundCard, GlowingStarsDescription, GlowingStarsTitle} from "@/components/ui/glowing-stars";
 
 type Card = {

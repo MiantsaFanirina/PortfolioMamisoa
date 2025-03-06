@@ -1,6 +1,5 @@
 import React from "react";
-import {LayoutGrid} from "@/components/ui/layout-grid";
-import {gridItems, WorkData} from "@/data";
+import {gridItems} from "@/data";
 import {BentoGrid, BentoGridItem} from "@/components/ui/bento-grid";
 
 export function Work() {

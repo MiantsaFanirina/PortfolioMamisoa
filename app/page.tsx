@@ -3,7 +3,7 @@ import {Features} from "@/components/Features";
 import Education from "@/components/Education";
 import {Work} from "@/components/Work";
 import {FloatingNav} from "@/components/ui/floating-navbar";
-import Experiences from "@/components/ui/Experiences";
+import Experiences from "@/components/Experiences";
 import Stack from "@/components/Stack";
 import {navItems} from "@/data";
 import About from "@/components/About";

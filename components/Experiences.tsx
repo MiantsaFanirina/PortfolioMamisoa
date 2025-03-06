@@ -2,7 +2,7 @@ import React from 'react';
 import {Modal, ModalBody, ModalContent, ModalFooter, ModalTrigger} from "@/components/ui/animated-modal";
 import {WorkData} from "@/data";
 import MagicButton from "@/components/ui/magic-button";
-import {FaGithub, FaLocationArrow} from "react-icons/fa6";
+import {FaGithub,} from "react-icons/fa6";
 
 const Experiences = () => {
     return (
