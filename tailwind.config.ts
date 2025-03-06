@@ -1,9 +1,12 @@
 import type { Config } from "tailwindcss";
 import svgToDataUri from "mini-svg-data-uri";
-import colors from "tailwindcss/colors";
 import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
-
 import tailwindcss_animate from "tailwindcss-animate";
+
+type AddVariablesForColorsParams = {
+  addBase: (base: Record<string, Record<string, string>>) => void;
+  theme: (key: string) => Record<string, string>;
+};
 
 const config: Config = {
   darkMode: ["class"],
@@ -161,28 +164,25 @@ const config: Config = {
         scroll:
             "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
-      fontFamily: {
-        electro: ["Electrolize", "sans-serif"],
-      },
     },
   },
   plugins: [
     tailwindcss_animate,
     addVariablesForColors,
-    ({ matchUtilities, theme }) => {
+    ({ matchUtilities, theme }: { matchUtilities: Function, theme: Function }) => {
       matchUtilities(
           {
-            "bg-grid": (value) => ({
+            "bg-grid": (value: string) => ({
               backgroundImage: `url("${svgToDataUri(
                   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100" height="100" fill="none" stroke="${value}"><path d="M0 .5H31.5V32"/></svg>`
               )}")`,
             }),
-            "bg-grid-small": (value) => ({
+            "bg-grid-small": (value: string) => ({
               backgroundImage: `url("${svgToDataUri(
                   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="8" height="8" fill="none" stroke="${value}"><path d="M0 .5H31.5V32"/></svg>`
               )}")`,
             }),
-            "bg-dot": (value) => ({
+            "bg-dot": (value: string) => ({
               backgroundImage: `url("${svgToDataUri(
                   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="none"><circle fill="${value}" id="pattern-circle" cx="10" cy="10" r="1.6257413380501518"></circle></svg>`
               )}")`,
@@ -194,7 +194,7 @@ const config: Config = {
   ],
 };
 
-function addVariablesForColors({ addBase, theme }) {
+function addVariablesForColors({ addBase, theme }: AddVariablesForColorsParams) {
   const allColors = flattenColorPalette(theme("colors"));
   const newVars = Object.fromEntries(
       Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
