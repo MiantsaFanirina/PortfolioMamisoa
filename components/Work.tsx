@@ -6,7 +6,7 @@ import {BentoGrid, BentoGridItem} from "@/components/ui/bento-grid";
 export function Work() {
 
     return (
-        <section id="work" className={'mb-36'}>
+        <section id="work" className={'mb-36 px-10 md:px-0'}>
             <BentoGrid>
                 {gridItems.map((item) => (
                     <BentoGridItem

@@ -27,6 +27,9 @@ export default {
         },
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        electro: ["Electrolize", "sans-serif"],
+      }
     },
   },
   plugins: [addVariablesForColors],

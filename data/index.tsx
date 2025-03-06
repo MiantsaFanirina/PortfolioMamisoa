@@ -87,18 +87,20 @@ export const EducationData = [
 export const WorkData = [
     {
         id: 1,
-        thumbnail: "March 2022 - December 2024 ",
+        thumbnail: ['Dec 2024', 'Mar 2022'],
         title: 'Project Manager for Stock Management',
+        location: 'YHAJA Madagascar Company',
+        stacks: [
+            '.NET CORE WPF',
+            'EntityFrameworkCore',
+            'Custom Controls',
+            'AForge', 'AForge.Video',
+            'EPPlus',
+            'Microsoft.Extensions.DependencyInjection',
+            'Microsoft.Extensions.Hosting'
+        ],
         content: (
             <div>
-                <h1 className={'text-[25px] md:text-3xl lg:text-4xl text-purple-300 relative mb-3 '}>
-                    Project Manager for Stock Management
-                </h1>
-
-                <h2 className={'text-[20px] md:text-xl lg:text-2xl text-white relative mb-10'}>
-                    YHAJA Madagascar Company
-                </h2>
-
 
                 {/*List*/}
 
@@ -134,15 +136,22 @@ export const WorkData = [
     },
     {
         id: 2,
-        title: 'CEO of Nossidea',
-        thumbnail: "2023 - 2024",
+        title: 'CEO',
+        location: 'Nossidea Company Madagascar',
+        thumbnail: ['2024', '2023'],
+        stacks: [
+            'PHP Symfony',
+            'PHP API Platform',
+            'Tailwind',
+            'React',
+            'Docker','Docker-compose',
+            'Makefile',
+            'Doctrine ORM',
+            'Mysql', 'PostgreSQL'
+        ],
         content: (
 
             <div>
-                <h1 className={'text-[25px] md:text-3xl lg:text-4xl text-purple-300 relative mb-10'}>
-                    CEO of Nossidea
-                </h1>
-
 
                 {/*List*/}
 
@@ -159,19 +168,17 @@ export const WorkData = [
     },
     {
         id: 3,
-        thumbnail: "July 2021 - March 2022",
+        thumbnail: ['Mar 2022', 'Jul 2021'],
         title: 'Project Manager for Entrepreneurship and Drinking Water Sales (In Preparation)',
+        stacks: [
+            'TIA Portal', 'Grafcet',
+            'PLC & HMI' ,'Power Systems','Contactor', 'Relay',
+            'Plumbing Installation', 'Azure Functions', 'Azure Service Bus', 'Terraform',
+            'Minimal API & WebAPI', '.NET MAUI', 'Blazor'
+        ],
+        location: 'YHAJA Madagascar Company',
         content: (
             <div>
-                <h1 className={'text-[25px] md:text-3xl lg:text-4xl text-purple-300 relative mb-3'}>
-                    Project Manager for Entrepreneurship and Drinking Water Sales (In Preparation)
-                </h1>
-
-                <h2 className={'text-[20px] md:text-xl lg:text-2xl text-white relative mb-10'}>
-                    YHAJA Madagascar Company
-                </h2>
-
-
                 {/*List*/}
 
                 <h2 className={'text-[25px] md:text-lg lg:text-xl text-white relative mb-3 font-bold'}>
@@ -270,19 +277,16 @@ export const WorkData = [
     },
     {
         id: 4,
-        thumbnail: "September 2020 - January 2023",
+        thumbnail: ['Jan 2023', 'Sep 2024'],
         title: 'Business Application Developer for Car Rental',
+        location: 'Aloc-cars, Switzerland',
+        stacks:[
+            'PHP API Platform',
+            'React', '.NET Core C#', 'Docker', 'Azure Load Balancing', 'Azure DevOps',
+            'Dapper', 'Terraform', 'Angular 8', 'Xamarin', 'Python', 'Keras', 'TensorFlow'
+        ],
         content: (
             <div>
-                <h1 className={'text-[25px] md:text-3xl lg:text-4xl text-purple-300 relative mb-3'}>
-                    Business Application Developer for Car Rental
-                </h1>
-
-                <h2 className={'text-[20px] md:text-xl lg:text-2xl text-white relative mb-10'}>
-                    Aloc-cars, Switzerland
-                </h2>
-
-
                 {/*List*/}
 
                 <h2 className={'text-[25px] md:text-lg lg:text-xl text-white relative mb-3 font-bold'}>
@@ -340,19 +344,14 @@ export const WorkData = [
     },
     {
         id: 5,
-        thumbnail: "January 2019 - December 2019",
+        thumbnail: ['Dec 2019', 'Jan 2019'],
         title: 'Consultant Developer',
+        location: 'YHAJA Madagascar Company',
+        stacks: [
+            'Stock Management', 'IT Flows', 'Grafcet', 'Sensors', 'ARM STM32'
+        ],
         content: (
             <div>
-                <h1 className={'text-[25px] md:text-3xl lg:text-4xl text-purple-300 relative mb-3'}>
-                    Consultant Developer
-                </h1>
-
-                <h2 className={'text-[20px] md:text-xl lg:text-2xl text-white relative mb-10'}>
-                    YHAJA Madagascar Company
-                </h2>
-
-
                 {/*List*/}
 
                 <h2 className={'text-[25px] md:text-lg lg:text-xl text-white relative mb-3 font-bold'}>
@@ -383,19 +382,14 @@ export const WorkData = [
     },
     {
         id: 6,
-        thumbnail: "January 2014 - December 2014",
+        thumbnail: ['Dec 2014', 'Jan 2014'],
         title: 'Business Application Developer for Money Transfer',
+        location: 'Cash-Xpress Genève & Pacoservices Lausanne',
+        stacks: [
+            'ASP.NET WebForm', 'Dapper', 'MSSQL', 'SOAP WebServices', 'Windows Service'
+        ],
         content: (
             <div>
-                <h1 className={'text-[25px] md:text-3xl lg:text-4xl text-purple-300 relative mb-3'}>
-                    Business Application Developer for Money Transfer
-                </h1>
-
-                <h2 className={'text-[20px] md:text-xl lg:text-2xl text-white relative mb-10'}>
-                    Cash-Xpress Genève & Pacoservices Lausanne
-                </h2>
-
-
                 {/*List*/}
 
                 <h2 className={'text-[25px] md:text-lg lg:text-xl text-white relative mb-3 font-bold'}>
@@ -451,8 +445,8 @@ export const WorkData = [
 
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Offers", link: "#offers" },
+    { name: "Experiences", link: "#experiences" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -667,3 +661,4 @@ export const socialMedia = [
     },
 ];
 
+export const MyStack = ['/tech-logo/cs.png', '/tech-logo/mdn.png', '/tech-logo/ts.png', '/tech-logo/next.png', '/tech-logo/nest.png', '/tech-logo/angular.png', '/tech-logo/sf.png', '/tech-logo/sp.png' ]

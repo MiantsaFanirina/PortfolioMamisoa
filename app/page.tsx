@@ -1,0 +1,36 @@
+import Hero from "@/components/Hero";
+import {Features} from "@/components/Features";
+import Education from "@/components/Education";
+import {Work} from "@/components/Work";
+import {FloatingNav} from "@/components/ui/floating-navbar";
+import Experiences from "@/components/ui/Experiences";
+import Stack from "@/components/Stack";
+import {navItems} from "@/data";
+
+export default function Home() {
+  return (
+   <main
+       className={`
+            relative bg-black-100 
+            flex flex-center items-center flex-col 
+            overflow-hidden mx-auto sm:px-10
+            
+       `}
+   >
+        <div
+            className={`
+                max-w-7xl w-full
+            `}
+        >
+
+            <FloatingNav navItems={navItems} />
+            <Hero/>
+            <Work/>
+            <Stack/>
+            <Features/>
+            <Education/>
+            <Experiences/>
+        </div>
+   </main>
+  );
+}
