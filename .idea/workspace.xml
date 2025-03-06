@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="fix dark mode">
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="tailwind.config.ts typescript error fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Education.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Experiences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Experiences.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Features.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Features.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Stack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Stack.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/glowing-stars.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/glowing-stars.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/text-generate-effect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/text-generate-effect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/floating-navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/floating-navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +91,7 @@
       <workItem from="1741260554684" duration="12766000" />
       <workItem from="1741280059117" duration="10538000" />
       <workItem from="1741293209885" duration="1896000" />
+      <workItem from="1741295156267" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -199,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741293966531</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tailwind.config.ts dark mode fix">
+      <option name="closed" value="true" />
+      <created>1741295244319</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741295244319</updated>
+    </task>
+    <task id="LOCAL-00014" summary="tailwind.config.ts typescript error fix">
+      <option name="closed" value="true" />
+      <created>1741295364847</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741295364847</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +236,9 @@
     <MESSAGE value="Remove loading stairs" />
     <MESSAGE value="Disable system theme" />
     <MESSAGE value="fix dark mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix dark mode" />
+    <MESSAGE value="tailwind.config.ts dark mode fix" />
+    <MESSAGE value="tailwind.config.ts typescript error fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="tailwind.config.ts typescript error fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

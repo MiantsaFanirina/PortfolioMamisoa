@@ -27,12 +27,12 @@ const Experiences = () => {
                                     </div>
                                     <div className={'flex flex-col gap-3 text-start'}>
                                         {item.location &&
-                                            <h3 className={'font-semibold uppercase text-[#2b2d3d] group-hover:text-purple transition-all'}>{item.location}</h3>}
+                                            <h3 className={'font-semibold uppercase text-purple md:text-[#2b2d3d] group-hover:text-purple transition-all'}>{item.location}</h3>}
                                         <h4 className={'font-bold uppercase text-blue-50'}>{item.title}</h4>
                                         <div className={'flex gap-3 flex-wrap'}>
                                             {item.stacks.map((stack, i) => (
                                                 <span key={i}
-                                                      className={'border px-3 py-1 rounded-2xl text-xs group-hover:border-purple transition-all'}>{stack}</span>
+                                                      className={'border px-3 py-1 rounded-2xl text-xs border-purple md:border-blue-50 group-hover:border-purple transition-all'}>{stack}</span>
                                             ))}
                                         </div>
                                     </div>
