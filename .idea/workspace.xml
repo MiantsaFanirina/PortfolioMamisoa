@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Fix lotties error" />
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Avatar fix">
+      <change afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/stairs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +89,7 @@
       <workItem from="1741175113449" duration="16319000" />
       <workItem from="1741199338531" duration="30408000" />
       <workItem from="1741260554684" duration="12766000" />
-      <workItem from="1741280059117" duration="6510000" />
+      <workItem from="1741280059117" duration="10257000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -142,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741288620183</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Avatar fix">
+      <option name="closed" value="true" />
+      <created>1741288974161</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741288974161</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +180,8 @@
     <MESSAGE value="Eslint build corrective" />
     <MESSAGE value="Typescript build corrective" />
     <MESSAGE value="Fix lotties error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix lotties error" />
+    <MESSAGE value="Avatar fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avatar fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
