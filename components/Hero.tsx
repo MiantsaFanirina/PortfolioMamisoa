@@ -33,13 +33,13 @@ function Hero() {
 
                     
                     <TextGenerateEffect
-                        className={`text-center text-[40px] md:text-5xl lg:text-6xl -translate-y-1/4`}
+                        className={`text-center text-[40px] md:text-5xl lg:text-6xl md:-translate-y-1/4`}
                         words={`I create powerful, scalable and secure solutions that drive business success`}
                     />
 
-                    <a href="#about">
+                    <a href="#offers">
                         <MagicButton
-                            title={'Show my work'}
+                            title={'What can I offer ?'}
                             icon={<FaLocationArrow/>}
                             position={'right'}
                         />

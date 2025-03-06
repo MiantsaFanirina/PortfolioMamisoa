@@ -96,8 +96,8 @@ export const WorkData = [
             'Custom Controls',
             'AForge', 'AForge.Video',
             'EPPlus',
-            'Microsoft.Extensions.DependencyInjection',
-            'Microsoft.Extensions.Hosting'
+            'XML',
+            'XSLT'
         ],
         content: (
             <div>
@@ -157,7 +157,7 @@ export const WorkData = [
 
                 <div className={'flex flex-col gap-2 '}>
                     <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-md md:text-lg">
-                        <FaRegCircle className={'text-purple-300'}/> <span>Led the development of a business application for <span className={'font-bold'}>Espace Santika</span> in Madagascar using <span className={'font-bold'}>Symfony, API Platform, and React</span>.
+                        <FaRegCircle className={'text-purple-300 shrink-0'}/> <span>Led the development of a business application for <span className={'font-bold'}>Espace Santika</span> in Madagascar using <span className={'font-bold'}>Symfony, API Platform, and React</span>.
                     </span>
                     </div>
                 </div>
@@ -386,7 +386,7 @@ export const WorkData = [
         title: 'Business Application Developer for Money Transfer',
         location: 'Cash-Xpress Genève & Pacoservices Lausanne',
         stacks: [
-            'ASP.NET WebForm', 'Dapper', 'MSSQL', 'SOAP WebServices', 'Windows Service'
+            'ASP.NET WebForm', 'Dapper', 'MSSQL', 'SOAP WebServices', 'Windows Service','WCF'
         ],
         content: (
             <div>
@@ -444,6 +444,7 @@ export const WorkData = [
 
 
 export const navItems = [
+    {name: 'Home', link: '/'},
     { name: "About", link: "#about" },
     { name: "Offers", link: "#offers" },
     { name: "Experiences", link: "#experiences" },

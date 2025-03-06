@@ -6,6 +6,8 @@ import {FloatingNav} from "@/components/ui/floating-navbar";
 import Experiences from "@/components/ui/Experiences";
 import Stack from "@/components/Stack";
 import {navItems} from "@/data";
+import About from "@/components/About";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -26,10 +28,12 @@ export default function Home() {
             <FloatingNav navItems={navItems} />
             <Hero/>
             <Work/>
+            <About/>
             <Stack/>
             <Features/>
             <Education/>
             <Experiences/>
+            <Footer/>
         </div>
    </main>
   );

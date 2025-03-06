@@ -6,7 +6,7 @@ import {FaGithub, FaLocationArrow} from "react-icons/fa6";
 
 const Experiences = () => {
     return (
-        <section id="experiences" className={'mb-36 px-6 md:px-0 scroll-mt-20'}>
+        <section id="experiences" className={'mb-36 px-6 md:px-0 scroll-mt-20 z-50'}>
 
 
             <h2 className={'text-center font-electro text-[40px] md:text-5xl lg:text-6xl text-white relative mb-20'}>
