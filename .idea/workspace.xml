@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Footer Section">
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Eslint build corrective">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/Experiences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/Experiences.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
       <workItem from="1741122447149" duration="15728000" />
       <workItem from="1741175113449" duration="16319000" />
       <workItem from="1741199338531" duration="30408000" />
-      <workItem from="1741260554684" duration="8887000" />
+      <workItem from="1741260554684" duration="9520000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -123,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741271831760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Eslint build corrective">
+      <option name="closed" value="true" />
+      <created>1741276439022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741276439022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +140,8 @@
     <MESSAGE value="Work, Features and Education sections" />
     <MESSAGE value="Experiences Section and Navbar" />
     <MESSAGE value="Footer Section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer Section" />
+    <MESSAGE value="Eslint build corrective" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eslint build corrective" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
