@@ -8,7 +8,7 @@ import Stack from "@/components/Stack";
 import {navItems} from "@/data";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
-import Loading from "@/app/loading";
+import Loading from "@/components/loading";
 
 export default function Home() {
   return (
@@ -27,7 +27,6 @@ export default function Home() {
         >
 
             <FloatingNav navItems={navItems} />
-            <Loading/>
             <Hero/>
             <Work/>
             <About/>

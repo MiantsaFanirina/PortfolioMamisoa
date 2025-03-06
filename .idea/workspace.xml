@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Avatar fix">
-      <change afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/stairs.tsx" afterDir="false" />
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Loading Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/loading.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/stairs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/stairs.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/MiantsaFanirina/PortfolioMamisoa.git&quot;,
@@ -63,8 +63,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\miant\OneDrive\Documents\DEV\portfolio-mamisoa\components\ui" />
       <recent name="C:\Users\miant\OneDrive\Documents\DEV\portfolio-mamisoa\components" />
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\portfolio-mamisoa\components\ui" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -89,7 +89,8 @@
       <workItem from="1741175113449" duration="16319000" />
       <workItem from="1741199338531" duration="30408000" />
       <workItem from="1741260554684" duration="12766000" />
-      <workItem from="1741280059117" duration="10257000" />
+      <workItem from="1741280059117" duration="10538000" />
+      <workItem from="1741293209885" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -155,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741288974161</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Loading Page">
+      <option name="closed" value="true" />
+      <created>1741292973716</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741292973716</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +190,8 @@
     <MESSAGE value="Typescript build corrective" />
     <MESSAGE value="Fix lotties error" />
     <MESSAGE value="Avatar fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avatar fix" />
+    <MESSAGE value="Loading Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading Page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -193,7 +203,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/layout.tsx</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

@@ -29,7 +29,7 @@ const Stairs = () => {
                     animate="animate"
                     exit="exit"
                     transition={{
-                        duration: 0.4,
+                        duration: 1,
                         ease: "easeInOut",
                         delay: reverseIndex(i) * 0.1
                     }}
