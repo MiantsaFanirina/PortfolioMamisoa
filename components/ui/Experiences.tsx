@@ -43,16 +43,17 @@ const Experiences = () => {
                                 <ModalContent>
                                     <div className={'p-6 overflow-y-auto'}>{item.content}</div>
                                 </ModalContent>
-
-                                <ModalFooter>
-                                    <a href="#about">
-                                        <MagicButton
-                                            title={'Take a look'}
-                                            icon={<FaGithub/>}
-                                            position={'left'}
-                                        />
-                                    </a>
-                                </ModalFooter>
+                                {item.github &&
+                                    <ModalFooter>
+                                        <a href={item.github}>
+                                            <MagicButton
+                                                title={'Take a look'}
+                                                icon={<FaGithub/>}
+                                                position={'left'}
+                                            />
+                                        </a>
+                                    </ModalFooter>
+                                }
                             </ModalBody>
                         </Modal>
                     </div>

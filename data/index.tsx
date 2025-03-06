@@ -90,6 +90,7 @@ export const WorkData = [
         thumbnail: ['Dec 2024', 'Mar 2022'],
         title: 'Project Manager for Stock Management',
         location: 'YHAJA Madagascar Company',
+        github: "https://github.com/Andriamiamina/YAJA",
         stacks: [
             '.NET CORE WPF',
             'EntityFrameworkCore',
@@ -139,6 +140,7 @@ export const WorkData = [
         title: 'CEO',
         location: 'Nossidea Company Madagascar',
         thumbnail: ['2024', '2023'],
+        github: "https://github.com/Andriamiamina/Nossidea",
         stacks: [
             'PHP Symfony',
             'PHP API Platform',
@@ -280,6 +282,7 @@ export const WorkData = [
         thumbnail: ['Jan 2023', 'Sep 2024'],
         title: 'Business Application Developer for Car Rental',
         location: 'Aloc-cars, Switzerland',
+        github: "https://github.com/Andriamiamina/aloccarsverstwo",
         stacks:[
             'PHP API Platform',
             'React', '.NET Core C#', 'Docker', 'Azure Load Balancing', 'Azure DevOps',
@@ -385,6 +388,7 @@ export const WorkData = [
         thumbnail: ['Dec 2014', 'Jan 2014'],
         title: 'Business Application Developer for Money Transfer',
         location: 'Cash-Xpress Genève & Pacoservices Lausanne',
+        github: "https://github.com/Andriamiamina/PacoCxMoney",
         stacks: [
             'ASP.NET WebForm', 'Dapper', 'MSSQL', 'SOAP WebServices', 'Windows Service','WCF'
         ],
@@ -412,7 +416,7 @@ export const WorkData = [
                         <FaRegCircle className={'text-purple-300 shrink-0'}/>
                         <span>
                             Implemented a single <span className={'font-bold'}>User Interface</span> but with two different databases for the two companies.
-                            [<span className={'font-bold'}>ASP.NET WebForm</span> for the Frontend and Data Access Layer using
+                            <span className={'font-bold'}>ASP.NET WebForm</span> for the Frontend and Data Access Layer using
                             the <span className={'font-bold'}>Dapper</span> framework, <span className={'font-bold'}>MSSQL Server</span> for the Backend].
                         </span>
                     </div>

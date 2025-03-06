@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Experiences Section and Navbar">
-      <change afterPath="$PROJECT_DIR$/components/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Footer Section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ui/Experiences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/Experiences.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.tsx" afterDir="false" />
     </list>
@@ -94,7 +89,7 @@
       <workItem from="1741122447149" duration="15728000" />
       <workItem from="1741175113449" duration="16319000" />
       <workItem from="1741199338531" duration="30408000" />
-      <workItem from="1741260554684" duration="5881000" />
+      <workItem from="1741260554684" duration="8887000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -120,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741232476630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Footer Section">
+      <option name="closed" value="true" />
+      <created>1741271831760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741271831760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,14 +133,15 @@
     <MESSAGE value="Hero Section" />
     <MESSAGE value="Work, Features and Education sections" />
     <MESSAGE value="Experiences Section and Navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experiences Section and Navbar" />
+    <MESSAGE value="Footer Section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer Section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/data/index.tsx</url>
-          <line>210</line>
+          <line>212</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
