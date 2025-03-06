@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Typescript build corrective">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Work.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/Experiences.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Experiences.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/animated-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/animated-modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/canvas-reveal-effect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/canvas-reveal-effect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/card-spotlight.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/floating-navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/floating-navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/following-pointer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/gird-globe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/gird-globe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/globe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/globe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/lamp.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/layout-grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/layout-grid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/magic-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/magic-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/moving-borders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/moving-borders.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/spotlight-old.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/timeline.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/typewriter-effect.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Fix lotties error" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +84,7 @@
       <workItem from="1741175113449" duration="16319000" />
       <workItem from="1741199338531" duration="30408000" />
       <workItem from="1741260554684" duration="12766000" />
-      <workItem from="1741280059117" duration="6132000" />
+      <workItem from="1741280059117" duration="6510000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -158,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741276836365</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix lotties error">
+      <option name="closed" value="true" />
+      <created>1741288620183</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741288620183</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +166,8 @@
     <MESSAGE value="Footer Section" />
     <MESSAGE value="Eslint build corrective" />
     <MESSAGE value="Typescript build corrective" />
-    <option name="LAST_COMMIT_MESSAGE" value="Typescript build corrective" />
+    <MESSAGE value="Fix lotties error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix lotties error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -194,7 +179,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/layout.tsx</url>
-          <line>1</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
