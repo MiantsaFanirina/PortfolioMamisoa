@@ -277,7 +277,7 @@ export const WorkData = [
     },
     {
         id: 4,
-        thumbnail: ['Jan 2023', 'Sep 2024'],
+        thumbnail: ['Sep 2020', 'Jan 2023'],
         title: 'Business Application Developer for Car Rental',
         location: 'Aloc-cars, Switzerland',
         github: "https://github.com/Andriamiamina/aloccarsverstwo",
