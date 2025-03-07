@@ -34,6 +34,10 @@ export default function Home() {
             <Features/>
             <Education/>
             <Experiences/>
+            <div className={'px-6 md:px-36 text-center'}>
+                <h1 className={'text-purple font-electro text-xl'}>Disclaimer !</h1>
+                <p className={'text-sm md:text-md text-blue-50'}>🚧 My portfolio is still a work in progress! Some sections may be missing or under construction. Please bear with me as I continue to build and improve it. Thank you for your understanding! 💻✨</p>
+            </div>
             <Footer/>
         </div>
    </main>

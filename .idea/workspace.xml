@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="fix mobile layout">
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Update Data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <workItem from="1741280059117" duration="10538000" />
       <workItem from="1741293209885" duration="1896000" />
       <workItem from="1741295156267" duration="2790000" />
-      <workItem from="1741303406017" duration="4646000" />
+      <workItem from="1741303406017" duration="4989000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -213,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741295951942</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update Data">
+      <option name="closed" value="true" />
+      <created>1741346942387</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741346942387</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +254,8 @@
     <MESSAGE value="tailwind.config.ts dark mode fix" />
     <MESSAGE value="tailwind.config.ts typescript error fix" />
     <MESSAGE value="fix mobile layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix mobile layout" />
+    <MESSAGE value="Update Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
