@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="update resume">
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="initiate favicon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +90,7 @@
       <workItem from="1741293209885" duration="1896000" />
       <workItem from="1741295156267" duration="2790000" />
       <workItem from="1741303406017" duration="5637000" />
+      <workItem from="1741350626827" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -235,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741349928489</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="initiate favicon">
+      <option name="closed" value="true" />
+      <created>1741351108143</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741351108143</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +281,8 @@
     <MESSAGE value="Update Data" />
     <MESSAGE value="Disclaimer text" />
     <MESSAGE value="update resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="update resume" />
+    <MESSAGE value="initiate favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="initiate favicon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
