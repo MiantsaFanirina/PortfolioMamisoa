@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="Update Data">
+    <list default="true" id="bc94a915-c30d-4e33-8529-e0fa9820e2f2" name="Changes" comment="update resume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1741280059117" duration="10538000" />
       <workItem from="1741293209885" duration="1896000" />
       <workItem from="1741295156267" duration="2790000" />
-      <workItem from="1741303406017" duration="4989000" />
+      <workItem from="1741303406017" duration="5637000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section">
       <option name="closed" value="true" />
@@ -220,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741346942387</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Disclaimer text">
+      <option name="closed" value="true" />
+      <created>1741347277097</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741347277097</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update resume">
+      <option name="closed" value="true" />
+      <created>1741349928489</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1741349928489</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +270,9 @@
     <MESSAGE value="tailwind.config.ts typescript error fix" />
     <MESSAGE value="fix mobile layout" />
     <MESSAGE value="Update Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Data" />
+    <MESSAGE value="Disclaimer text" />
+    <MESSAGE value="update resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="update resume" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
