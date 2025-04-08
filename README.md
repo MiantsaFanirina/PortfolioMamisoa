@@ -29,7 +29,6 @@ You can view the live site here: [portfolio-mamisoa.vercel.app](https://portfoli
 
 <img src="./public/screenshot.png" alt="Mamisoa Hyacinthe Portfolio Screenshot" style="width: 100%; border-radius: 8px;" />
 
-> Make sure to add a screenshot named `screenshot.png` inside the `public` directory of your project.
 
 ---
 
