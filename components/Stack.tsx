@@ -1,20 +1,64 @@
-import React from 'react';
-import {MyStack} from "@/data";
+"use client";
+
+import * as React from "react";
 import Image from "next/image";
+import { useLocale } from "@/lib/i18n";
+import { Section, SectionHeading } from "@/components/Section";
+import { techStack } from "@/data/content";
 
-const Stack = () => {
-    return (
-        <section id={"stack"} className={'mb-36 px-10 md:px-0'}>
-            <h2 className={'text-center font-electro text-[40px] md:text-5xl lg:text-6xl text-white relative mb-20'}>
-                My Tech <span className={'text-purple'}>Stack</span>
-            </h2>
-            <div className={'flex items-center justify-center flex-wrap gap-6 md:gap-10'}>
-                {MyStack.map((item, index) => (
-                    <Image key={index} src={item} alt={item} width={50} height={50} className={'text-white w-[50px] h-[50px] object-center object-contain'}/>
-                ))}
+export function Stack() {
+  const { t } = useLocale();
+  const loop = [...techStack, ...techStack];
+
+  return (
+    <Section id="stack" className="py-144 overflow-hidden">
+      <div className="container-edge">
+        <SectionHeading label={t.stack.label} title={t.stack.title} intro={t.stack.intro} index="06" />
+      </div>
+
+      <div className="mask-fade-x mt-89 flex w-full">
+        <div className="flex shrink-0 animate-marquee items-center gap-21 pr-21 [--marquee-duration:42s]">
+          {loop.map((tech, i) => (
+            <div
+              key={i}
+              className="flex shrink-0 items-center gap-5 border border-paper/10 px-13 py-8"
+            >
+              <Image
+                src={tech.src}
+                alt={tech.label}
+                width={44}
+                height={44}
+                className="h-11 w-11 object-contain opacity-80"
+              />
+              <span className="whitespace-nowrap font-mono text-fluid-xs uppercase tracking-label text-paper/70">
+                {tech.label}
+              </span>
             </div>
-        </section>
-    );
-};
-
-export default Stack;
+          ))}
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex shrink-0 animate-marquee items-center gap-21 pr-21 [--marquee-duration:42s]"
+        >
+          {loop.map((tech, i) => (
+            <div
+              key={i}
+              className="flex shrink-0 items-center gap-5 border border-paper/10 px-13 py-8"
+            >
+              <Image
+                src={tech.src}
+                alt=""
+                width={44}
+                height={44}
+                className="h-11 w-11 object-contain opacity-80"
+              />
+              <span className="whitespace-nowrap font-mono text-fluid-xs uppercase tracking-label text-paper/70">
+                {tech.label}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Section>
+  );
+}

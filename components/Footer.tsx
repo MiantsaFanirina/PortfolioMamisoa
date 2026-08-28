@@ -1,57 +1,40 @@
-import { FaLocationArrow } from "react-icons/fa6";
+"use client";
 
-import { socialMedia } from "@/data";
-import MagicButton from "@/components/ui/magic-button";
-import React from "react";
+import * as React from "react";
+import Link from "next/link";
+import { useLocale } from "@/lib/i18n";
+import { profile } from "@/data/content";
 
-const Footer = () => {
-    return (
-        <footer className="w-full relative pt-36 pb-10 overflow-hidden" id="contact">
-            {/* background grid */}
-            <div className="w-full absolute left-0 -bottom-72 min-h-96">
-                <img
-                    src="/footer-grid.svg"
-                    alt="grid"
-                    className="w-full h-full opacity-50 "
-                />
-            </div>
+export function Footer() {
+  const { t } = useLocale();
 
-            <div className="flex flex-col items-center">
-                <h2 className={'text-center font-electro text-[40px] md:text-5xl lg:text-6xl text-white relative'}>
-                    Ready to take <span className="text-purple">your</span> digital
-                    presence to the next level?
-                </h2>
-
-                <p className="text-white-200 md:mt-10 my-5 text-center">
-                    Reach out to me today and let&apos;s discuss how I can help you
-                    achieve your goals.
-                </p>
-                <a href="mailto:mamisoa.hyacinthe90@gmail.com">
-                    <MagicButton
-                        title="Let's get in touch"
-                        icon={<FaLocationArrow/>}
-                        position="right"
-                    />
-                </a>
-            </div>
-            <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-                <p className="md:text-base text-sm md:font-normal mb-3 md:mb-0 font-light">
-                    Copyright © 2025 Miantsa Fanirina
-                </p>
-
-                <div className="flex items-center md:gap-3 gap-6">
-                    {socialMedia.map((info) => (
-                        <div
-                            key={info.id}
-                            className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-                        >
-                            <img src={info.img} alt="icons" width={20} height={20} />
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </footer>
-    );
-};
-
-export default Footer;
+  return (
+    <footer className="surface-ink border-t border-paper/10 pb-13 pt-55">
+      <div className="container-edge flex flex-col gap-13 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <Link
+            href="#top"
+            className="font-display text-fluid-2xl font-medium text-paper transition-colors hover:text-accent"
+          >
+            {profile.name}
+          </Link>
+          <p className="mt-8 max-w-xs font-mono text-fluid-xs uppercase tracking-label text-muted">
+            {t.footer.note}
+          </p>
+        </div>
+        <div className="flex flex-col items-start gap-4 sm:items-end">
+          <Link
+            href="#top"
+            className="group inline-flex items-center gap-2 font-mono text-fluid-xs uppercase tracking-label text-paper/55 transition-colors hover:text-paper"
+          >
+            <span className="transition-transform duration-500 ease-editorial group-hover:-translate-y-1">
+              ↑
+            </span>
+            Top
+          </Link>
+          <span className="font-mono text-fluid-xs text-muted">{t.footer.rights}</span>
+        </div>
+      </div>
+    </footer>
+  );
+}

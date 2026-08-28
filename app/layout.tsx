@@ -1,45 +1,52 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Space_Grotesk, Cormorant_Garamond, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/app/provider";
+import { Providers } from "@/app/providers";
+import { en } from "@/locales/en";
 
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
+const display = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-display",
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
-    subsets: ["latin"],
+const serif = Cormorant_Garamond({
+  subsets: ["latin"],
+  variable: "--font-serif",
+  weight: ["400", "500", "600"],
+  display: "swap",
+});
+
+const body = Inter({
+  subsets: ["latin"],
+  variable: "--font-body",
+  weight: ["300", "400", "500", "600"],
+  display: "swap",
+});
+
+const mono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  weight: ["400", "500"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-    title: "Mamisoa's Portfolio",
-    description: "Innovative Full-Stack Developer | Business Application Expert",
+  title: en.meta.title,
+  description: en.meta.description,
 };
 
 export default function RootLayout({
-                                       children,
-                                   }: Readonly<{
-    children: React.ReactNode;
+  children,
+}: Readonly<{
+  children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en" className={'dark'}>
-        <head>
-            {/* Add the favicon here */}
-            <link rel="icon" href="/favicon.ico" />
-        </head>
-        <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiased !scroll-smooth `}
-        >
-        <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem={false}
-        >
-            {children}
-        </ThemeProvider>
-        </body>
-        </html>
-    );
+  return (
+    <html lang="en" className={`${display.variable} ${serif.variable} ${body.variable} ${mono.variable}`}>
+      <body className="bg-ink text-paper">
+        <Providers>{children}</Providers>
+      </body>
+    </html>
+  );
 }

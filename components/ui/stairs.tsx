@@ -1,5 +1,5 @@
 "use client"
-import {animate, motion} from "framer-motion";
+import {motion} from "framer-motion";
 
 const stairAnimation = {
     initial: {
@@ -35,8 +35,8 @@ const Stairs = () => {
                     }}
                     className={' h-full w-full relative'}
                     style={{
-                        backdropFilter: "blur(16px) saturate(180%)",
-                        backgroundColor: "rgba(17, 25, 40, 0.75)",
+                        backgroundColor: "#0B0B0C",
+                        boxShadow: "inset -1px 0 0 rgba(255,74,28,0.35)",
                     }}
                 >
                 </motion.div>
