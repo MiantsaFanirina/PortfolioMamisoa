@@ -35,8 +35,8 @@ const Stairs = () => {
                     }}
                     className={' h-full w-full relative'}
                     style={{
-                        backgroundColor: "#0B0B0C",
-                        boxShadow: "inset -1px 0 0 rgba(255,74,28,0.35)",
+                        backgroundColor: "rgb(var(--c-ink))",
+                        boxShadow: "inset -1px 0 0 rgb(var(--c-accent) / 0.35)",
                     }}
                 >
                 </motion.div>
