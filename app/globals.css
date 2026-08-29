@@ -16,6 +16,16 @@
   --color-accent-soft: #ff7a52;
   --color-muted: #8a847a;
 
+  /* themeable channels (RGB triplets) */
+  --c-ink: 11 11 12;
+  --c-paper: 236 231 222;
+  --c-accent: 255 74 28;
+  --c-accent-soft: 255 122 82;
+  --c-accent-deep: 216 53 15;
+  --c-muted: 138 132 122;
+
+  color-scheme: dark;
+
   --font-display: "Space Grotesk", sans-serif;
   --font-serif: "Cormorant Garamond", serif;
   --font-body: "Inter", sans-serif;
@@ -42,6 +52,14 @@
   --z-curtain: 6000;
 
   --container-edge: 1600px;
+}
+
+/* Light theme swaps the canvas / foreground channels */
+[data-theme="light"] {
+  --c-ink: 236 231 222;
+  --c-paper: 17 17 19;
+  --c-muted: 99 93 84;
+  color-scheme: light;
 }
 
 /* ============================================================

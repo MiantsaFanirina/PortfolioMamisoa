@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, useMotionValueEvent, useScroll, AnimatePresence } from "framer-motion";
 import { useLocale } from "@/lib/i18n";
+import { useTheme } from "@/lib/theme";
 import { profile } from "@/data/content";
 import { cn } from "@/lib/utils";
 
@@ -20,6 +21,7 @@ const NAV_KEYS = [
 
 export function Navigation() {
   const { t, lang, setLang } = useLocale();
+  const { theme, toggle } = useTheme();
   const pathname = usePathname();
   const base = pathname === "/" ? "" : "/";
   const [visible, setVisible] = React.useState(true);
@@ -83,6 +85,23 @@ export function Navigation() {
           </ul>
 
           <div className="flex items-center gap-3">
+            <button
+              onClick={toggle}
+              aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+              aria-pressed={theme === "light"}
+              className="grid h-9 w-9 place-items-center rounded-full border border-paper/15 text-paper/70 transition-colors hover:border-paper/40 hover:text-paper"
+            >
+              {theme === "dark" ? (
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
+                  <circle cx="12" cy="12" r="4.2" />
+                  <path d="M12 2v2.5M12 19.5V22M4.5 12H2M22 12h-2.5M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8" />
+                </svg>
+              ) : (
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+                </svg>
+              )}
+            </button>
             <div
               className="flex items-center rounded-full border border-paper/15 p-0.5"
               role="group"

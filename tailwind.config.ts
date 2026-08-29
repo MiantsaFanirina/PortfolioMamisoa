@@ -36,7 +36,7 @@ const config: Config = {
       },
       colors: {
         ink: {
-          DEFAULT: "#0B0B0C",
+          DEFAULT: "rgb(var(--c-ink) / <alpha-value>)",
           900: "#0B0B0C",
           800: "#131318",
           700: "#1C1C22",
@@ -44,18 +44,18 @@ const config: Config = {
           500: "#33333C",
         },
         paper: {
-          DEFAULT: "#ECE7DE",
+          DEFAULT: "rgb(var(--c-paper) / <alpha-value>)",
           100: "#F5F2EC",
           200: "#E3DDD2",
           300: "#D2CABC",
           400: "#BCB3A2",
         },
         accent: {
-          DEFAULT: "#FF4A1C",
-          soft: "#FF7A52",
-          deep: "#D8350F",
+          DEFAULT: "rgb(var(--c-accent) / <alpha-value>)",
+          soft: "rgb(var(--c-accent-soft) / <alpha-value>)",
+          deep: "rgb(var(--c-accent-deep) / <alpha-value>)",
         },
-        muted: "#8A847A",
+        muted: "rgb(var(--c-muted) / <alpha-value>)",
         black: {
           DEFAULT: "#000",
           100: "#000319",

@@ -44,6 +44,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${display.variable} ${serif.variable} ${body.variable} ${mono.variable}`}>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{var t=localStorage.getItem('mamisoa-theme');if(!t){t=window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';}document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='dark';}})();",
+          }}
+        />
+      </head>
       <body className="bg-ink text-paper">
         <Providers>{children}</Providers>
       </body>
