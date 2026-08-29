@@ -16,7 +16,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-[100svh] flex-col justify-center overflow-hidden pt-34"
+      className="relative flex min-h-[100svh] flex-col justify-center overflow-hidden pt-28 lg:pt-34"
     >
       <div className="pointer-events-none absolute inset-0 -z-10 bg-grid-small opacity-[0.07] [background-size:42px_42px]" />
       <div className="pointer-events-none absolute -left-1/3 top-0 -z-10 h-[80vh] w-[80vw] rounded-full bg-accent/20 blur-[140px]" />
