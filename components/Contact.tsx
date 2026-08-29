@@ -5,7 +5,6 @@ import { useLocale } from "@/lib/i18n";
 import { Section } from "@/components/Section";
 import { SplitText } from "@/components/motion/SplitText";
 import { Reveal } from "@/components/motion/Reveal";
-import { Magnetic } from "@/components/motion/Magnetic";
 import { profile, social } from "@/data/content";
 
 export function Contact() {
@@ -25,17 +24,15 @@ export function Contact() {
         </Reveal>
 
         <Reveal delay={0.1} className="mt-34 flex flex-col items-start gap-13 sm:flex-row sm:items-center">
-          <Magnetic>
-            <a
-              href={`mailto:${profile.email}`}
-              className="group inline-flex items-center gap-4 rounded-full bg-accent px-8 py-5 font-mono text-fluid-xs uppercase tracking-label text-ink transition-colors hover:bg-accent-deep"
-            >
-              {t.contact.cta}
-              <span className="transition-transform duration-500 ease-editorial group-hover:translate-x-1">
-                →
-              </span>
-            </a>
-          </Magnetic>
+          <a
+            href={`mailto:${profile.email}`}
+            className="group inline-flex items-center gap-4 rounded-full bg-accent px-8 py-5 font-mono text-fluid-xs uppercase tracking-label text-ink transition-colors hover:bg-accent-deep"
+          >
+            {t.contact.cta}
+            <span className="transition-transform duration-500 ease-editorial group-hover:translate-x-1">
+              →
+            </span>
+          </a>
 
           <div className="flex items-center gap-5">
             {social.map((s) => (

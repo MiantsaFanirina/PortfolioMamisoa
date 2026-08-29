@@ -7,7 +7,6 @@ import { useLocale } from "@/lib/i18n";
 import { Section, SectionHeading } from "@/components/Section";
 import { Reveal } from "@/components/motion/Reveal";
 import { Parallax } from "@/components/motion/Parallax";
-import { Magnetic } from "@/components/motion/Magnetic";
 import { profile } from "@/data/content";
 
 export function About() {
@@ -55,21 +54,19 @@ export function About() {
           </div>
 
           <Reveal delay={0.2} className="mt-34">
-            <Magnetic>
-              <a
-                href={profile.cv}
-                download
-                className="group inline-flex items-center gap-3 rounded-full border border-paper/20 px-7 py-4 font-mono text-fluid-xs uppercase tracking-label text-paper transition-colors hover:border-accent hover:text-accent"
+            <a
+              href={profile.cv}
+              download
+              className="group inline-flex items-center gap-3 rounded-full border border-paper/20 px-7 py-4 font-mono text-fluid-xs uppercase tracking-label text-paper transition-colors hover:border-accent hover:text-accent"
+            >
+              <motion.span
+                className="grid h-6 w-6 place-items-center rounded-full bg-accent text-ink"
+                whileHover={{ rotate: 45 }}
               >
-                <motion.span
-                  className="grid h-6 w-6 place-items-center rounded-full bg-accent text-ink"
-                  whileHover={{ rotate: 45 }}
-                >
-                  ↓
-                </motion.span>
-                {t.about.resume}
-              </a>
-            </Magnetic>
+                ↓
+              </motion.span>
+              {t.about.resume}
+            </a>
           </Reveal>
         </div>
       </div>

@@ -7,7 +7,6 @@ import { useLocale } from "@/lib/i18n";
 import { profile } from "@/data/content";
 import { SplitText } from "@/components/motion/SplitText";
 import { Parallax } from "@/components/motion/Parallax";
-import { Magnetic } from "@/components/motion/Magnetic";
 
 export function Hero() {
   const { t } = useLocale();
@@ -53,17 +52,15 @@ export function Hero() {
             transition={{ duration: 0.9, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="mt-21 flex flex-wrap items-center gap-5"
           >
-            <Magnetic>
-              <a
-                href="#work"
-                className="group inline-flex items-center gap-3 rounded-full bg-accent px-7 py-4 font-mono text-fluid-xs uppercase tracking-label text-ink transition-colors hover:bg-accent-soft"
-              >
-                {t.hero.ctaWork}
-                <span className="transition-transform duration-500 ease-editorial group-hover:translate-x-1">
-                  →
-                </span>
-              </a>
-            </Magnetic>
+            <a
+              href="#work"
+              className="group inline-flex items-center gap-3 rounded-full bg-accent px-7 py-4 font-mono text-fluid-xs uppercase tracking-label text-ink transition-colors hover:bg-accent-soft"
+            >
+              {t.hero.ctaWork}
+              <span className="transition-transform duration-500 ease-editorial group-hover:translate-x-1">
+                →
+              </span>
+            </a>
             <a
               href="#contact"
               className="group inline-flex items-center gap-3 rounded-full border border-paper/20 px-7 py-4 font-mono text-fluid-xs uppercase tracking-label text-paper transition-colors hover:border-paper/50"
