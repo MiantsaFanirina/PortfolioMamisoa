@@ -95,7 +95,7 @@ export type Dict = {
 
 export const en: Dict = {
   meta: {
-    title: "Mamisoa Hyacinthe — Full-Stack Engineer & Software Architect",
+    title: "Mamisoa Hyacinthe, Full-Stack Engineer & Software Architect",
     description:
       "Portfolio of Mamisoa Hyacinthe, full-stack developer and software architect specialised in business applications, industrial systems and cloud infrastructure.",
   },
@@ -121,7 +121,7 @@ export const en: Dict = {
     kicker: "Software Engineer · Madagascar / UAE",
     role: "I build resilient business software",
     statement:
-      "Full-stack engineer crafting secure, scalable applications — from industrial automation to cloud-native platforms.",
+      "Full-stack engineer crafting secure, scalable applications: from industrial automation to cloud-native platforms.",
     ctaWork: "View selected work",
     ctaContact: "Start a conversation",
     location: "Madagascar · UAE",
@@ -130,7 +130,7 @@ export const en: Dict = {
     label: "Statement",
     lead: "A decade engineering systems that move organisations.",
     body: [
-      "I design and ship business applications where reliability is not a feature but a foundation — stock and production traceability, employee and finance workflows, money-transfer networks, and industrial control interfaces.",
+      "I design and ship business applications where reliability is not a feature but a foundation: stock and production traceability, employee and finance workflows, money-transfer networks, and industrial control interfaces.",
       "My work lives at the intersection of software and the physical world: PLC and HMI automation, sensor-driven production lines, and cloud infrastructure that stays calm under load.",
     ],
   },

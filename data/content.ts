@@ -96,8 +96,8 @@ export type Education = {
 export const education: Education[] = [
   {
     title: {
-      en: "2020 — Master's in Industrial Computer Science & Networks",
-      fr: "2020 — Master en Informatique Industrielle & Réseaux",
+      en: "2020: Master's in Industrial Computer Science & Networks",
+      fr: "2020 : Master en Informatique Industrielle & Réseaux",
     },
     desc: {
       en: "University of Technology Specialist in Informatics (T.S.I)",
@@ -106,8 +106,8 @@ export const education: Education[] = [
   },
   {
     title: {
-      en: "2017 — Bachelor's in Information Technology",
-      fr: "2017 — Licence en Technologies de l'Information",
+      en: "2017: Bachelor's in Information Technology",
+      fr: "2017 : Licence en Technologies de l'Information",
     },
     desc: {
       en: "Institut UNIVERS Informatique",
@@ -116,8 +116,8 @@ export const education: Education[] = [
   },
   {
     title: {
-      en: "2012 — Master's in Engineering Informatics",
-      fr: "2012 — Master en Informatique Industrielle",
+      en: "2012: Master's in Engineering Informatics",
+      fr: "2012 : Master en Informatique Industrielle",
     },
     desc: {
       en: "École d'Ingénieur de Genève (E.I.G)",

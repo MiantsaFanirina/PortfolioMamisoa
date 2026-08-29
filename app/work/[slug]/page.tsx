@@ -19,7 +19,7 @@ export async function generateMetadata({
   const project = getProject(slug);
   if (!project) return { title: en.meta.title };
   return {
-    title: `${project.title.en} — Mamisoa Hyacinthe`,
+    title: `${project.title.en} | Mamisoa Hyacinthe`,
     description: project.summary.en,
   };
 }

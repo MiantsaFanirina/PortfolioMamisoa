@@ -30,7 +30,7 @@ export const projects: Project[] = [
     client: { en: "YHAJA Madagascar", fr: "YHAJA Madagascar" },
     role: { en: "Project Manager", fr: "Chef de projet" },
     year: "2024",
-    period: { en: "Dec 2024 — Mar 2022", fr: "Déc. 2024 — Mar. 2022" },
+    period: { en: "Dec 2024 to Mar 2022", fr: "Déc. 2024 à Mar. 2022" },
     location: { en: "Antananarivo, MG", fr: "Antananarivo, MG" },
     stacks: [
       ".NET CORE WPF",
@@ -70,11 +70,11 @@ export const projects: Project[] = [
     slug: "nossidea-ceo",
     index: "02",
     field: { en: "Web · Architecture", fr: "Web · Architecture" },
-    title: { en: "Nossidea — CEO & Product", fr: "Nossidea — CEO & Produit" },
+    title: { en: "Nossidea: CEO & Product", fr: "Nossidea : CEO & Produit" },
     client: { en: "Nossidea Company, Madagascar", fr: "Nossidea Company, Madagascar" },
     role: { en: "Chief Executive Officer", fr: "Directeur Général" },
     year: "2024",
-    period: { en: "2024 — 2023", fr: "2024 — 2023" },
+    period: { en: "2024 to 2023", fr: "2024 à 2023" },
     location: { en: "Antananarivo, MG", fr: "Antananarivo, MG" },
     stacks: [
       "PHP Symfony",
@@ -114,7 +114,7 @@ export const projects: Project[] = [
     client: { en: "YHAJA Madagascar", fr: "YHAJA Madagascar" },
     role: { en: "Project Manager", fr: "Chef de projet" },
     year: "2022",
-    period: { en: "Mar 2022 — Jul 2021", fr: "Mar. 2022 — Juil. 2021" },
+    period: { en: "Mar 2022 to Jul 2021", fr: "Mar. 2022 à Juil. 2021" },
     location: { en: "Antananarivo, MG", fr: "Antananarivo, MG" },
     stacks: [
       "TIA Portal",
@@ -128,8 +128,8 @@ export const projects: Project[] = [
       "Blazor",
     ],
     summary: {
-      en: "Feasibility and execution preparation for a natural-source bottling plant — automation, control panels and cloud.",
-      fr: "Étude de faisabilité et préparation d'une unité d'embouteillage à source — automatisation, armoires et cloud.",
+      en: "Feasibility and execution preparation for a natural-source bottling plant: automation, control panels and cloud.",
+      fr: "Étude de faisabilité et préparation d'une unité d'embouteillage à source : automatisation, armoires et cloud.",
     },
     highlights: [
       {
@@ -156,13 +156,13 @@ export const projects: Project[] = [
     index: "04",
     field: { en: "Web · Mobile · AI", fr: "Web · Mobile · IA" },
     title: {
-      en: "Car Rental Platform — Aloc-cars",
-      fr: "Plateforme de location — Aloc-cars",
+      en: "Car Rental Platform: Aloc-cars",
+      fr: "Plateforme de location : Aloc-cars",
     },
     client: { en: "Aloc-cars, Switzerland", fr: "Aloc-cars, Suisse" },
     role: { en: "Business Application Developer", fr: "Développeur d'applications" },
     year: "2020",
-    period: { en: "Sep 2020 — Jan 2023", fr: "Sep. 2020 — Jan. 2023" },
+    period: { en: "Sep 2020 to Jan 2023", fr: "Sep. 2020 à Jan. 2023" },
     location: { en: "Switzerland", fr: "Suisse" },
     stacks: [
       "PHP API Platform",
@@ -213,7 +213,7 @@ export const projects: Project[] = [
     client: { en: "YHAJA Madagascar", fr: "YHAJA Madagascar" },
     role: { en: "Consultant Developer", fr: "Développeur consultant" },
     year: "2019",
-    period: { en: "Dec 2019 — Jan 2019", fr: "Déc. 2019 — Jan. 2019" },
+    period: { en: "Dec 2019 to Jan 2019", fr: "Déc. 2019 à Jan. 2019" },
     location: { en: "Antananarivo, MG", fr: "Antananarivo, MG" },
     stacks: ["Stock Management", "IT Flows", "Grafcet", "Sensors", "ARM STM32"],
     summary: {
@@ -237,13 +237,13 @@ export const projects: Project[] = [
     index: "06",
     field: { en: "Web · ERP", fr: "Web · ERP" },
     title: {
-      en: "Employee Management System — QMM",
-      fr: "Gestion du personnel — QMM",
+      en: "Employee Management System: QMM",
+      fr: "Gestion du personnel : QMM",
     },
     client: { en: "QMM Consultant, Madagascar", fr: "QMM Consultant, Madagascar" },
     role: { en: "Business Application Developer", fr: "Développeur d'applications" },
     year: "2016",
-    period: { en: "Dec 2015 — Jan 2015", fr: "Déc. 2015 — Jan. 2015" },
+    period: { en: "Dec 2015 to Jan 2015", fr: "Déc. 2015 à Jan. 2015" },
     location: { en: "Madagascar", fr: "Madagascar" },
     stacks: [
       "ASP.NET MVC",
@@ -283,8 +283,8 @@ export const projects: Project[] = [
     index: "07",
     field: { en: "Web · Banking", fr: "Web · Banque" },
     title: {
-      en: "Money Transfer — Cash-Xpress",
-      fr: "Transfert d'argent — Cash-Xpress",
+      en: "Money Transfer: Cash-Xpress",
+      fr: "Transfert d'argent : Cash-Xpress",
     },
     client: {
       en: "Cash-Xpress Genève & Pacoservices Lausanne",
@@ -292,7 +292,7 @@ export const projects: Project[] = [
     },
     role: { en: "Business Application Developer", fr: "Développeur d'applications" },
     year: "2014",
-    period: { en: "Dec 2014 — Jan 2014", fr: "Déc. 2014 — Jan. 2014" },
+    period: { en: "Dec 2014 to Jan 2014", fr: "Déc. 2014 à Jan. 2014" },
     location: { en: "Genève · Lausanne, CH", fr: "Genève · Lausanne, CH" },
     stacks: [
       "ASP.NET WebForm",
@@ -312,8 +312,8 @@ export const projects: Project[] = [
         fr: "2 mois à Douala (Cameroun) et 10 mois à Quito (Équateur) pour construire le produit.",
       },
       {
-        en: "One UI, two databases — ASP.NET WebForm front-end with Dapper on MSSQL.",
-        fr: "Une UI, deux bases — front ASP.NET WebForm avec Dapper sur MSSQL.",
+        en: "One UI, two databases: ASP.NET WebForm front-end with Dapper on MSSQL.",
+        fr: "Une UI, deux bases : front ASP.NET WebForm avec Dapper sur MSSQL.",
       },
       {
         en: "Built secure communication bots (SOAP, console app, Windows Service scheduler).",

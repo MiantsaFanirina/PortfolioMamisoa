@@ -38,7 +38,7 @@ export function Experience() {
                 </div>
                 <div className="flex flex-col gap-4">
                   <span className="font-mono text-fluid-xs text-paper/45">
-                    {p.period[lang]} — {p.location[lang]}
+                    {p.period[lang]}, {p.location[lang]}
                   </span>
                   <div className="flex flex-wrap gap-2">
                     {p.stacks.slice(0, 5).map((s) => (

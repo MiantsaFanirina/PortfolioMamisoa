@@ -89,7 +89,7 @@ export function ProjectDetail({ project }: { project: Project }) {
           <div>
             <span className="label-mono">{t.project.overview}</span>
             <p className="mt-13 font-mono text-fluid-xs uppercase tracking-label text-muted">
-              {project.location[lang]} — {project.period[lang]}
+              {project.location[lang]}, {project.period[lang]}
             </p>
           </div>
           <div>

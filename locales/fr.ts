@@ -2,7 +2,7 @@ import type { Dict } from "./en";
 
 export const fr: Dict = {
   meta: {
-    title: "Mamisoa Hyacinthe — Ingénieur Full-Stack & Architecte Logiciel",
+    title: "Mamisoa Hyacinthe, Ingénieur Full-Stack & Architecte Logiciel",
     description:
       "Portfolio de Mamisoa Hyacinthe, développeur full-stack et architecte logiciel spécialisé dans les applications métier, les systèmes industriels et l'infrastructure cloud.",
   },
@@ -28,7 +28,7 @@ export const fr: Dict = {
     kicker: "Ingénieur logiciel · Madagascar / EAU",
     role: "Je construis des logiciels métier résilients",
     statement:
-      "Ingénieur full-stack concevant des applications sécurisées et évolutives — de l'automatisation industrielle aux plates-formes cloud-native.",
+      "Ingénieur full-stack concevant des applications sécurisées et évolutives : de l'automatisation industrielle aux plates-formes cloud-native.",
     ctaWork: "Voir les réalisations",
     ctaContact: "Démarrer une conversation",
     location: "Madagascar · EAU",
@@ -37,7 +37,7 @@ export const fr: Dict = {
     label: "Manifeste",
     lead: "Dix ans à concevoir des systèmes qui font avancer les organisations.",
     body: [
-      "Je conçois et livre des applications métier dont la fiabilité n'est pas une option mais une fondation — traçabilité des stocks et de production, gestion du personnel et des finances, réseaux de transfert d'argent, et interfaces de contrôle industriel.",
+      "Je conçois et livre des applications métier dont la fiabilité n'est pas une option mais une fondation : traçabilité des stocks et de production, gestion du personnel et des finances, réseaux de transfert d'argent, et interfaces de contrôle industriel.",
       "Mon travail vit à la frontière du logiciel et du monde physique : automatisation PLC et IHM, lignes de production pilotées par capteurs, et infrastructures cloud qui restent stables sous charge.",
     ],
   },

@@ -1,4 +1,4 @@
-# Mamisoa Hyacinthe – Portfolio
+# Mamisoa Hyacinthe - Portfolio
 
 This is a professional portfolio website developed for **Mamisoa Hyacinthe**, built using **Next.js** with advanced animation and smooth transitions to showcase his profile, experience, and skills.
 
